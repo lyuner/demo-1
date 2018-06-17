@@ -1,11 +1,17 @@
 #ifndef MYWIDGET_H
 #define MYWIDGET_H
 
+#include <QWidget>
 
-class MyWidget
+class myWidget : public QWidget
 {
+    Q_OBJECT
 public:
-    MyWidget();
+    explicit myWidget(QWidget *parent = nullptr);
+
+signals:
+
+public slots:
 };
 
 #endif // MYWIDGET_H

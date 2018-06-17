@@ -1,6 +1,6 @@
 #include "mywidget.h"
 
-MyWidget::MyWidget()
+myWidget::myWidget(QWidget *parent) : QWidget(parent)
 {
 
 }
