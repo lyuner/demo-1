@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    mylineedit.cpp
+    mylineedit.cpp \
+    mywidget.cpp
 
 HEADERS += \
         mainwindow.h \
-    mylineedit.h
+    mylineedit.h \
+    mywidget.h
 
 FORMS += \
         mainwindow.ui
